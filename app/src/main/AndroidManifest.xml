@@ -13,6 +13,12 @@
         android:theme="@style/Theme.LOGREG"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoggedInActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
